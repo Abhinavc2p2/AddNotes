@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 23px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.emoji {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.monkeyface {
+    display: none;
+}
+
+.eyeclose {
+    display: none;
+}
+
+.mouthclose {
+    display: none;
+}
+
+.earclose {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.areja {
+    display: none;
+}
+
+.PARA {
+    font-size: 50px;
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
